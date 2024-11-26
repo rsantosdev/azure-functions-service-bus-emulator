@@ -1,0 +1,12 @@
+@WebApplication1_HostAddress = http://localhost:5098
+
+POST {{WebApplication1_HostAddress}}/user/create
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@contoso.com",
+  "password": "password"
+}
+###
